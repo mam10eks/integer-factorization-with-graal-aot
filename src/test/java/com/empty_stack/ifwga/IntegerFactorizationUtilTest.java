@@ -27,6 +27,15 @@ public class IntegerFactorizationUtilTest
 	}
 	
 	@Test
+	public void checkThatFactorizarionof4Returns2_2_2()
+	{
+		List<Integer> expected = Arrays.asList(2, 2, 2);
+		List<Integer> actual = IntegerFactorizationUtil.factorize(8);
+
+		Assert.assertEquals(expected, actual);
+	}
+	
+	@Test
 	public void checkThatFactorizationOf5Returns5()
 	{
 		List<Integer> expected = Arrays.asList(5);
