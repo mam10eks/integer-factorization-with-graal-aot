@@ -13,4 +13,13 @@ public class IntegerFactorizationUtilTest
 		
 		Assert.assertEquals(expected, actual);
 	}
+	
+	@Test
+	public void checkThatFactorizationOf5Returns5()
+	{
+		int expected = 5;
+		int actual = IntegerFactorizationUtil.factorize(5);
+
+		Assert.assertEquals(expected, actual);
+	}
 }
