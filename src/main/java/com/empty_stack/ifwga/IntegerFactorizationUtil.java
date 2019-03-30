@@ -6,6 +6,6 @@ public class IntegerFactorizationUtil
 	public static int factorize(int i)
 	{
 		// TODO Auto-generated method stub
-		return 2;
+		return i;
 	}
 }
